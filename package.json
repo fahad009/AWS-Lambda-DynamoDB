@@ -1,0 +1,38 @@
+{
+  "name": "VSpace",
+  "version": "1.0.0",
+  "description": "hello world sample for NodeJS",
+  "main": "app.js",
+  "repository": "https://github.com/awslabs/aws-sam-cli/tree/develop/samcli/local/init/templates/cookiecutter-aws-sam-hello-nodejs",
+  "author": "SAM CLI",
+  "license": "MIT",
+  "scripts": {
+    "offline": "serverless offline start",
+    "deploy": "serverless deploy"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^6.1.4",
+    "serverless-plugin-node-shim": "^1.0.1",
+    "serverless-sequelize-migrations": "^1.1.1",
+    "serverless-offline": "^6.1.4",
+    "serverless-prune-plugin": "^1.6.0"
+  },
+  "dependencies": {
+    "axios": "^0.19.2",
+    "dateformat": "^3.0.3",
+    "dotenv": "^8.2.0",
+    "lambda-uuid": "^1.0.0",
+    "node-fetch": "^2.6.0",
+    "node-gcm": "^1.0.2",
+    "nodemailer": "^6.4.6",
+    "nodemailer-plugin-inline-base64": "^2.1.1",
+    "nodemon": "^2.0.6",
+    "sequelize": "^4.28.6",
+    "sequelize-cli": "^3.2.0",
+    "serverless-offline": "^6.1.4",
+    "serverless-prune-plugin": "^1.6.0",
+    "uuid": "^7.0.3",
+    "validator": "^13.0.0"
+  }
+}
